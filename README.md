@@ -2,8 +2,6 @@
 
 A real-time COVID-19 statistics tracker built with Flutter and deployed for the web. This app fetches live data from the [disease.sh API](https://disease.sh/) and displays global and country-wise COVID-19 stats like total cases, recovered, and deaths.
 
-![Web<img width="1440" alt="covid-19-screenshot" src="https://github.com/user-attachments/assets/e7266bc8-4acf-4089-a95d-7f3676751006" />
-page Screenshot]() <!-- (Optional: Add a screenshot of your app here) -->
 
 ## 🚀 Features
 
