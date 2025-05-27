@@ -1,16 +1,41 @@
-# covid_tracker
+# 🌍 COVID-19 Global Tracker
 
-A new Flutter project.
+A real-time COVID-19 statistics tracker built with Flutter and deployed for the web. This app fetches live data from the [disease.sh API](https://disease.sh/) and displays global and country-wise COVID-19 stats like total cases, recovered, and deaths.
 
-## Getting Started
+![Web<img width="1440" alt="covid-19-screenshot" src="https://github.com/user-attachments/assets/e7266bc8-4acf-4089-a95d-7f3676751006" />
+page Screenshot]() <!-- (Optional: Add a screenshot of your app here) -->
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🌐 Global COVID-19 stats (Total Cases, Recovered, Deaths)
+- 🌎 Country-wise COVID-19 data
+- 🔍 Search by country
+- 🔠 Sort countries alphabetically
+- 📈 Live API Integration using [disease.sh](https://disease.sh)
+- 💻 Flutter Web-compatible
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Built With
+
+- **Flutter** (Web Support)
+- **Dart**
+- `http` package for REST API calls
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- A Flutter-compatible editor like **VS Code**
+- Chrome browser (for Flutter web development)
+
+### Installation
+
+```bash
+git clone https://github.com/Sushmasri-06/covid_tracker.git
+cd covid_tracker
+flutter pub get
+flutter run -d chrome
