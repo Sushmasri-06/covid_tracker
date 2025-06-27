@@ -22,6 +22,10 @@ A real-time COVID-19 statistics tracker built with Flutter and deployed for the 
 
 ---
 
+## Output Screen
+
+ link🔗: https://drive.google.com/file/d/1mGw9FqEEp4spliDLNLpFQcseIKo_PFul/view?usp=sharing
+
 ## 📦 Getting Started
 
 ### Prerequisites
@@ -37,3 +41,4 @@ git clone https://github.com/Sushmasri-06/covid_tracker.git
 cd covid_tracker
 flutter pub get
 flutter run -d chrome
+
