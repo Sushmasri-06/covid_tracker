@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: covid-tracker-service
+  labels:
+    app: covid-tracker
+spec:
+  type: ClusterIP
+  selector:
+    app: covid-tracker
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
